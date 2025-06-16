@@ -285,10 +285,14 @@ font-size: 32px;
   
   
  }
- /* .picture-template img{
+ /* .picture-template div img{
  display: grid;
-   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-    overflow-y: scroll; 
+   grid-template-columns: 1fr 1fr 1fr ;
+    overflow-x: auto; 
+    overflow: scroll;
+    grid-auto-flow: column;
+    grid-auto-columns: 10%;
+    overscroll-behavior-inline: contain;
     
  } */
  .template button{
@@ -466,13 +470,19 @@ font-size: 15px;
   font-family: sans-serif;
   margin-top: 20px;
 }
-.more-page div span{
-  margin-left: 20px;
-}
+
 .more h2{
   font-size: 17px;
   margin-top: 20px;
   font-family: sans-serif;
+}
+.more{
+  font-size: 17px;
+ margin: 40px 40px;
+ padding: 10px 10px;
+ line-height: 1.5;
+ margin-top: 10px;
+ margin-bottom: 20px;
 }
 .more  div span{
   font-family: sans-serif;
@@ -480,14 +490,47 @@ font-size: 15px;
   line-height: 1.5;
   padding-right: 70px;
  
+ 
 }
 .more span ul a{
   color: #000;
+  
 }
 .more span a {
   color: #000;
-  margin: 20px 20px;
+  margin: 20px 0px;
 }
 .more span ol a{
   color: #000;
+}
+.more {
+  width: 300px;
+  font-family: Arial, sans-serif;
+  position: relative;
+}
+.read-more-toggle {
+  display: none;
+}
+
+.more span{
+  display: none;
+}
+.read-more-toggle:checked ~  .text {
+  display: inline;
+}
+.read-more-label {
+  display: inline-flex;
+  align-items: end;
+  cursor: pointer;
+  font-weight: bold;
+  gap: 5px;
+  margin-top: 5px;
+}
+.read-more-label .icon {
+  display: inline-block;
+  transition: transform 0.3s ease;
+}
+
+.read-more-toggle:checked + .more + .read-more-label .icon {
+  transform: rotate(180deg);
 }
