@@ -33,6 +33,7 @@
     display: flex;
     padding-top: 30px;
     text-decoration: none;
+    margin-top: -10px;
 }
 .nav-bar h1{
    margin: 20px;
@@ -62,7 +63,7 @@
     margin-left: 10px;
     border-color: transparent;
  
-    /* margin: 30px; */
+  
 }
 .Search-bar button{
    background-color: #09757A;
@@ -183,15 +184,11 @@ margin-top: 20px;
  padding: 60px;
  border-radius: 5px;
  margin: 10px 10px;
- position: absolute;
+
   }
   .grid2{
-   display: grid;
-   grid-template-columns: 1fr 1fr  ;
-   position: relative;
-  
-   
-
+   display: flex;
+   flex-direction: column;
   }
  
  .box2{
@@ -206,8 +203,10 @@ margin-top: 20px;
     margin: 10px 80px;
       border-radius: 5px;
  }
- .headings h2{
- font-size: 35px;
+ .headings h3{
+ font-size: 45px;
+ margin: 10px 10px;
+ 
  }
  .headings img{
   height: 100%;
@@ -230,8 +229,8 @@ max-height: 400px;
  }
  .headings div{
    background-color: #e4f1ef;
-   padding: 40px 40px;
-  margin: 10px;
+   padding: 40px 20px;
+  margin: 10px 10px;
   height:250px;
    font-family: sans-serif;
    line-height: 1.5;
@@ -360,7 +359,7 @@ max-height: 400px;
    font-size: 16px;
 
  }
- .scroll-section h2{
+ .scroll-section h3{
  font-size: 29px;
  font-family: sans-serif;
  }
@@ -534,3 +533,485 @@ font-size: 15px;
 .read-more-toggle:checked + .more + .read-more-label .icon {
   transform: rotate(180deg);
 }
+ .fa fa-angle-down{
+margin: 20px 20px;
+}
+.product-limitation span{
+font-size: 15px;
+margin-left: 30px;
+}
+.product-limitation p{
+  margin-left: 30px;
+  font-size: 17px;
+  margin-top: 30px;
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+.main-footer{
+  background-color: #000;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+
+.main-footer div h2{
+  color: white;
+  font-size: 19px;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+ 
+}
+.main-footer ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+  line-height: 3;
+  font-weight: 300;
+  margin: 20px;
+}
+.main-footer ul{
+  text-decoration: none;
+  list-style: none;
+}
+.main-footer p{
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+}
+@media screen and (min-width: 768px){
+  /* body{
+    border: 2px solid red;
+  } */
+  .Search-bar{
+   width: 95%;
+  }
+  .Search-bar input{
+    padding: 13px;
+    font-size: 20px;
+   
+  }
+  .Search-bar button{
+    padding: 19px;
+ margin-left: 340px;
+    font-size: 10px;
+    width: 89px;
+   border-radius: 6px;
+  }
+  .Airo h2{
+   font-size: 30px;
+   position: absolute;
+   margin-top: 200px;
+   margin-left: 50px;
+   width: 620px;
+}
+.Airo p{
+  margin-top: 280px;
+  font-size: 20px;
+  width: 500px;
+}
+.box{
+    margin: 10px 10px ; 
+     padding: 10px;
+  border-radius: 12px;
+ 
+}
+.box-button1{
+  border-color: transparent;
+ background-color:#1bdbdb;
+ margin-left: 350px;
+ padding: 5px;
+}
+.box h3{
+  font-family: sans-serif;
+  text-align: center;
+ 
+  margin-top: 10px;
+  font-size: 14px;
+}
+.box p{
+  text-align: center;
+}
+.box-button2{
+  padding: 12px;
+  width: 150px;
+  margin-left: 300px;
+  
+}
+.grid1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+margin: 10px 110px;
+margin-top: 50px;
+}
+.grid1 div{
+  display: flex;
+  justify-content: center;
+  width: 170px;
+    padding:3px 7px;
+}
+ .box1{
+ padding: 20px;
+ height: 300px;
+ margin: 10px;
+ margin-top: 10px;
+ 
+  }
+  .grid2{
+   display: grid;
+   grid-template-columns: 1fr 1fr  ;
+   column-gap: 1px;
+   margin-top: 20px;
+   margin-left: 90px;
+  }
+.box2{
+  padding: 30px;
+ margin-left: 50px;
+ }
+ .box3{
+   padding: 60px;
+    margin: 10px 10px;
+      border-radius: 5px;
+ }
+  .headings img{
+  max-width: 80%;
+  margin-left: 80px;
+
+ }
+ .headings h2{
+  text-align: center;
+  font-size: 40px;
+  width: 400px;
+  margin-left: 150px;
+
+ }
+ .heading {
+  padding: 10px 20px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin-top: -21px;
+ 
+
+ }
+ .headings div{
+   padding: 10px 65px;
+   border-radius: 5px;
+  margin: 0px 40px;
+  height:150px;
+ }
+  .headings div h3{
+  width: 500px;
+ }
+ .headings button{ 
+  margin: 60px 250px;
+  font-size: 16px;
+ }
+ .template img{
+  max-height: 300px; 
+   max-width: 370px;
+   padding: 10px 20px;
+ }
+
+ .template button{
+   padding: 12px;
+  width: 220px;
+  margin: 50px 250px;
+ }
+  .certificate h2{
+  text-align: center;
+  font-size: 33px;
+  font-family: sans-serif;
+  margin: 10px 20px;
+ }
+ .certificate h3{
+font-size: 40px;
+margin: 20px 50px;
+width: 500px;
+ }
+  .scroll-section h3{
+    width: 500px;
+    margin: 20px 50px ;
+ font-size: 30px;
+ font-family: sans-serif;
+ }
+.technology img{
+position: relative;
+}
+ .technology h2{
+  position: absolute;
+  margin-top: -330px;
+  margin-left: 390px;
+  font-size: 36px;
+  width: 300px;
+}
+.technology p{
+  position: absolute;
+ margin-left: 430px;
+ margin-top: -230px;
+ width: 300px;
+}
+.technology button{
+  position: relative;
+  padding: 14px;
+  content: "";
+  bottom: 130px;
+  left: 460px;
+}
+.more-page h2{
+
+  text-align: center;
+  margin-top: 10px;
+  font-size: 39px;
+}
+.more-page h3{
+  font-size: 30px;
+  margin-right: 60px;
+  margin-top: 20px;
+ 
+}
+
+.more h2{
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+.more{
+ width: 500px;
+  font-size: 17px;
+ margin: 10px 100px;
+ padding: 10px 10px;
+ margin-top: 20px;
+ margin-bottom: 30px;
+}
+
+}
+ 
+  @media screen and (min-width: 992px){
+    .Search-bar{
+   width: 75%;
+   margin: 30px 40px;
+  }
+  .Search-bar input{
+    padding: 29px;
+    font-size: 20px;
+   
+  }
+  .Search-bar button{
+    padding: 26px;
+ margin-left: 510px;
+    font-size: 11px;
+    width: 141px;
+   border-radius: 6px;
+  }
+  .Airo h2{
+   font-size: 40px;
+   position: absolute;
+   margin-top: 300px;
+   margin-left: 400px;
+   width: 620px;
+}
+.Airo p{
+  margin-left: 400px;
+  margin-top: 470px;
+  font-size: 30px;
+  width: 50%;
+}
+.box{
+    margin: 10px 10px ; 
+     padding: 10px;
+  border-radius: 12px;
+ 
+}
+.box-button1{
+  border-color: transparent;
+ background-color:#1bdbdb;
+ margin-left: 650px;
+ padding: 5px;
+}
+.box h3{
+  margin-top: 30px;
+  font-size: 16px;
+}
+.box p{
+  text-align: center;
+  font-size: 15px;
+}
+.box-button2{
+  padding: 12px;
+  width: 150px;
+  margin-left: 600px;
+  
+}
+.grid1{
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+margin: 10px 210px;
+margin-top: 50px;
+display: flex;
+justify-content: center;
+}
+.grid1 div{
+  display: flex;
+  justify-content: center;
+  width: 180px;
+    padding:3px 7px;
+}
+ .box1{
+ padding: 80px;
+ height: 360px;
+ margin: 10px;
+ margin-top: 10px;
+ 
+  }
+  .grid2{
+    /* border: solid 10px; */
+   display: grid;
+   grid-template-columns: 1fr 1fr  ;
+   column-gap: 1px;
+   margin-top: 20px;
+   margin-left: 90px;
+  }
+.box2{
+  padding: 80px;
+ margin-left: 40px 0px;
+ }
+ .box3{
+   padding: 80px;
+    margin: 10px 50px;
+    margin-top: 20px;
+      border-radius: 5px;
+ }
+  .headings img{
+  max-width: 80%;
+  margin-left: 150px;
+
+ }
+ .headings h2{
+  text-align: center;
+  font-size: 40px;
+  width: 100%;
+  margin-left: 0px;
+
+ }
+ .heading {
+  padding: 10px 30px;
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr;
+ margin-top: -21px;
+ 
+
+ }
+ .headings div{
+  height: 200px;
+   padding: 10px 35px;
+   border-radius: 5px;
+  margin: 40px 50px;
+ 
+ }
+  .headings div h3{
+  width: 200px;
+  font-size: 19px;
+ }
+ .headings button{ 
+  margin: 60px 550px;
+  font-size: 16px;
+ }
+ .template img{
+  max-height: 500px; 
+   max-width: 590px;
+   padding: 10px 20px;
+   margin: 10px 10px;
+ }
+
+ .template button{
+   padding: 12px;
+  width: 240px;
+  margin: 50px 550px;
+ }
+ /* .domain{
+  position: relative;
+ }
+ .domain h2{
+  position: relative;
+ } */
+  .certificate h2{
+  text-align: center;
+  font-size: 43px;
+  font-family: sans-serif;
+  margin: 10px 20px;
+ }
+ .certificate h3{
+font-size: 40px;
+margin: 20px 50px;
+width: 500px;
+ }
+  .scroll-section h3{
+    width: 600px;
+    margin: 20px 50px ;
+ font-size: 40px;
+ font-family: sans-serif;
+ }
+.technology img{
+position: relative;
+}
+ .technology h2{
+  position: absolute;
+  margin-top: -430px;
+  margin-left: 810px;
+  font-size: 46px;
+  width: 300;
+}
+.technology p{
+  position: absolute;
+  font-size: 20px;
+ margin-left: 830px;
+ margin-top: -270px;
+ width: 300px;
+}
+.technology button{
+  position: relative;
+  padding: 14px;
+  content: "";
+  bottom: 130px;
+  left: 780px;
+}
+.more-page h2{
+width: 900px;
+margin-left: 200px;
+  text-align: center;
+  margin-top: 10px;
+  font-size: 45px;
+}
+.more-page h3{
+  margin-left: 350px;
+  font-size: 30px;
+  margin-right: 60px;
+  margin-top: 20px;
+ 
+}
+
+.more h2{
+  font-size: 13px;
+  margin-top: 30px;
+  margin-bottom: 20px;
+  margin-left: 10px;
+  font-size: 30px;
+}
+.more{
+ width: 900px;
+  font-size: 17px;
+ margin: 10px 200px;
+ padding: 10px 10px;
+ margin-top: 20px;
+ margin-bottom: 30px;
+}
+.main-footer{
+  display: grid;
+  grid-template-columns:1fr 1fr 1fr 1fr 1fr 1fr 1fr  ;
+  justify-content: space-evenly;
+  margin: 10px 10px;
+ 
+}
+  }
+
