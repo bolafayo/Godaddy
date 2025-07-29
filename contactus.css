@@ -1,0 +1,234 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    text-decoration: none;
+}
+.nav a{
+    color: black;
+    padding: 20px;
+}
+.nav ul{
+  /* position: fixed; */
+text-decoration: none;
+display: flex;
+justify-content: end;
+list-style: none;
+font-weight: bold;
+}
+.nav h1{
+  margin: 10px 30px;
+}
+.contact ul{
+
+  display: flex;
+  margin: 60px;
+  margin-top: 40px;
+  text-decoration: none;
+  list-style: none;
+ 
+}
+.contact li a{
+  display: none;
+  text-decoration: none;
+   color: black;
+   margin:13px;
+   font-size: 12px;
+  
+}
+.guides{
+  position: relative;
+}
+.guides img{
+width: 100%;
+height: 100%;
+object-fit: cover;
+object-position: 50% 50%;
+}
+.guides h3{
+  display: none;
+position: absolute;
+margin-top: 150px;
+margin-left: 100px;
+font-size: 25px;
+}
+.guides h2{
+  position: absolute;
+background-image: linear-gradient(to right, #eeeeee, #e0e0e0);
+ bottom: 20px;
+ left: 120px;
+  font-size: 20px;
+  width: 240px;
+}
+.guides p{
+  display: none;
+}
+.chat {
+  width: 300px;
+  height: 200px;
+  margin: 10px 20px;
+  border-radius: 8px;
+  border-color: whitesmoke;
+  box-shadow:#D8EFEF 1px 1px 10px 0px ;
+}
+.chat button:hover{
+  background: #000;
+  color: white;
+margin-top: 20px;
+  padding: 10px;
+}
+.chat h2{
+  margin: 0px 30px;
+ padding: 20px 10px;
+}
+.chat p{
+  padding: 20px;
+ line-height: 1.5;
+ font-size: 14px;
+}
+.chat button{
+  padding: 15px;
+  width: 130px;
+    box-shadow:#D8EFEF 1px 1px 10px 0px ;
+    border-color:black ;
+    background-color: white;
+    font-weight: bold;
+    z-index: 1;
+    margin-left: 10px;
+}
+.main-footer{
+  background-color: #000;
+  margin-top: 40px;
+  padding-top: 20px;
+}
+
+
+.main-footer div h2{
+  color: white;
+  font-size: 19px;
+  margin: 20px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+ 
+}
+.main-footer ul a{
+  text-decoration: none;
+  color: white;
+  font-size: 13px;
+  font-family: sans-serif;
+  line-height: 3;
+  font-weight: 300;
+  margin: 20px;
+}
+.main-footer p{
+  color: white;
+  font-size: 30px;
+  margin-left: 30px;
+}
+@media screen and (min-width: 768px){
+  .contact li a{
+  display: inline;
+   margin:19px;
+   font-size: 19px;
+}
+.contact ul{
+ padding-top: 30px;
+}
+.guides h3{
+  display: inline;
+position: absolute;
+ bottom: 320px;
+ left: 2px;
+font-size: 25px;
+}
+.guides h2{
+  position: absolute;
+background-image: none;
+ bottom: 200px;
+ left: 80px;
+  font-size: 50px;
+  width: 500px;
+}
+.guides p{
+  position: absolute;
+  top:200px;
+  font-size: 14px;
+  font-weight: bold;
+line-height: 1.5;
+  width: 300px;
+  left: 80px;
+  display: inline;
+}
+.chat {
+position: relative;
+  width: 650px;
+  height: 300px;
+  bottom: 100px;
+  left: 70px;
+  background-color: white;
+  border-radius: 8px;
+  border-color: whitesmoke;
+  box-shadow:#D8EFEF 1px 1px 10px 0px ;
+}
+
+.chat h2{
+  margin: 0px 30px;
+ padding: 20px 10px;
+}
+.chat p{
+ 
+  padding: 20px;
+ line-height: 1.5;
+ font-weight: bold;
+ font-size: 14px;
+}
+.chat button{
+  padding: 15px;
+  width: 130px;
+    box-shadow:#D8EFEF 1px 1px 10px 0px ;
+    border-color:black ;
+    background-color: white;
+    font-weight: bold;
+    z-index: 1;
+    margin-left: 10px;
+}
+.main-footer{
+  margin-top: -80px;
+}
+
+}
+ @media screen and (min-width: 992px){
+.guides h3{
+ bottom: 520px;
+font-size: 25px;
+}
+.guides h2{
+ bottom: 400px;
+ left: 80px;
+  font-size: 50px;
+  width: 500px;
+}
+.guides p{
+  top:300px;
+  font-size: 14px;
+   line-height: 2;
+  width: 500px;
+  left: 80px;
+  display: inline;
+}
+.chat {
+  width: 80%;
+  height: 300px;
+  bottom: 250px;
+  box-shadow: whitesmoke 1px 1px 10px 0px ;
+}
+.chat p{
+  margin-left: 30px;
+  margin-top: 40px;
+  padding: 20px;
+}
+.chat button{
+display: none;
+}
+ }
